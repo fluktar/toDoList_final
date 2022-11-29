@@ -38,7 +38,7 @@ h1 {
 .header {
     padding: 40px;
     border-radius: 5px 5px 0 0;
-    background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
+    background-image: linear-gradient(340deg, #4ba356 0%, #120f6b 100%);
 }
 
 .todo-input {
@@ -103,10 +103,13 @@ h1 {
     background-color: transparent;
     cursor: pointer;
     transition: background-color .3s;
+    transition: .3s;
 }
 
 .tools button:hover {
     background-color: #ddd;
+    transform: scale(1.2);
+    border: 1px solid black;
 }
 
 .complete {
@@ -127,6 +130,7 @@ h1 {
     font-style: italic;
     color: var(--light-dark);
     text-decoration: line-through;
+    
 }
 
 .popup {
