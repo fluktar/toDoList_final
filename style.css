@@ -16,19 +16,19 @@
 body {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 15%;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--light);
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     color: var(--light);
     text-transform: uppercase;
 }
 
 .todo {
-    width: 800px;
+    width: 80%;
     text-align: center;
     background: #fff;
     box-shadow: 4px 4px 5px rgba(82, 82, 82, .4);
@@ -79,6 +79,7 @@ h1 {
 .todo-list h3 {
     text-transform: uppercase;
     margin-bottom: 16px;
+    font-size: 0;
 }
 
 .todo-list li {
